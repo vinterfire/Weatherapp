@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;}
+    body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://media.istockphoto.com/photos/thunderstorm-with-lightning-above-the-sea-at-sunset-picture-id924460478?k=20&m=924460478&s=612x612&w=0&h=Qg7QPRJDbAAjqcK2WT2nVIopzl7K_pOxhRVIuRgB1PE=);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    }
+    .container{
+        width:360px;
+        background-color: transparent;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color:rgb(153, 202, 20);
+        font-family:  "Roboto", sans-serif;
+       
+    }
+    .container input[type="text"]{
+        width:100%;
+        padding: 4px;
+        font-size: 30px;
+        outline:none;
+        text-align:right;
+        height:100px;
+        color: white;
+        background:black;
+        border: 15px solid rgba(255,255,255,0.1);
+    
+        
+    }
+    .container button[type="Search"]{
+        outline: none;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        height: 65px;
+        color:rgb(255, 255, 255);
+        width: calc(100%/4 - 5px);
+        background: black;
+        border-radius: 12px;
+        margin-top: 15px;
+    }
+    .container button[type="Search"]:hover{background:rgba(255,255,255,0.1);
+    }
